@@ -116,4 +116,9 @@ df = pd.DataFrame(result,columns=colname)
 df.to_excel("jobplanet_기업명.xlsx")
 
 
+<<<<<<< HEAD:jobplanet_review.py
 print(result)
+=======
+
+df = pd.read_excel('/content/jobplanet_기업명.xlsx')
+>>>>>>> 0a766fa500ae12b44a4c620794824783316a9e21:jobplanet/jobplanet_review.py
