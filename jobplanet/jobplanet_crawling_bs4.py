@@ -99,11 +99,9 @@ for idx in range(1,last_page+1):
 
 colname = ['작성일', '직무','재직 여부','지역','총점','승진 기회 및 가능성','복지 및 급여','업무와 삶의 균형','사내문화','경영진','총평','장점','단점','바라는점']
 df = pd.DataFrame(result,columns=colname)
-df.head(1)
-
 
 # 저장을 희망하는 파일명으로 저장
 df.to_csv("jobplanet_현대건설.csv", encoding = 'utf-8-sig', index=False)
 
 df_result = pd.read_csv('/content/jobplanet_현대건설.csv')
-df_result.head(1)
+df_result.head()
