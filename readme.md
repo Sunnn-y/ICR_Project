@@ -27,7 +27,7 @@ https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4
 | ------ | -------------------------------------------- | ----------------------------- |
 | 양소은 | 팀장, 데이터 수집(재무제표), 중간발표 1, 재무비율 계산, 재무데이터 Feature Selection, 재무데이터 Machine Learning, 중간발표 3, 대시보드 제작, 최종 발표 준비 및 발표       | https://github.com/Sunnn-y |
 | 박하린 | 팀원, 초안 발표, 데이터 수집(잡플래닛 기업리뷰), 데이터 수집(기업별 투자지표), Aspect Term 선별, ABSA 감성분석         | https://github.com/mint-rin |
-| 김가희 | 팀원, 데이터 수집(기업 뉴스데이터), 기업별 신용등급 크롤링, 중간발표 2, 데이터 merge, Aspect Term 선별, ABSA 감성분  | https://github.com/gmlgml5023 |
+| 김가희 | 팀원, 데이터 수집(기업 뉴스데이터), 기업별 신용등급 크롤링, 중간발표 2, 데이터 merge, Aspect Term 선별, ABSA 감성분석  | https://github.com/gmlgml5023 |
 
 
 ## 데이터
