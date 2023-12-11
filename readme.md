@@ -1,26 +1,27 @@
-# 🗂️ Credit X Project
+# Credit X Project
 
-## 📍 소개
+
+## 소개
 
 대체 데이터를 활용한 기업 신용 평가 모델 구축하고자 함
 
 
-## 📝 추진 배경
+## 추진 배경
 
 기존 재무적 요소 위주의 신용 평가에서 탈피하여 비재무적 요소를 추가한 대안 신용 평가 모델을 구축하고자 함
 
 
-## 📆 기간
+## 기간
 
 2023.11.04 ~ 2023.12.01
 
 
-## 📝 노션(WBS)
+## 노션(WBS)
 
 https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4
 
  
-## 👩‍💻 팀원
+## 팀원
 
 | 이름   | 역할                                         | url                          |
 | ------ | -------------------------------------------- | ----------------------------- |
@@ -29,16 +30,16 @@ https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4
 | 김가희 | 팀원, 데이터 수집(기업 뉴스데이터), 기업별 신용등급 크롤링, 중간발표 2, 데이터 merge, Aspect Term 선별, ABSA 감성분  | https://github.com/gmlgml5023 |
 
 
-## 📚 데이터
+## 데이터
 | 데이터   | 참고                                     | 출처                          |
 | ------ | -------------------------------------------- | ----------------------------- |
-| 재무제표 | Dart 전자공시 시스   | https://dart.fss.or.kr/ |
+| 재무제표 | Dart 전자공시 시스템   | https://dart.fss.or.kr/ |
 | 뉴스 데이터 | 네이버 증권 뉴스      | https://finance.naver.com/news/ |
 | 잡플래닛 기업 리뷰 | 잡플래닛 사이트   | https://www.jobplanet.co.kr/job/ |
 | 기업 신용등급 데이터 | NICE 신용평가사   | https://www.nicerating.com/main.do |
 
 
-## 📃 레퍼런스
+## 레퍼런스
 
 * MickelHoang, Oskar Alija Bihorac, Aspect-Based Sentiment Analysis Using BERT, 2020
 * Park Hyun-jung, BERT를 활용한 속성기반 감성분석: 속성카테고리 감성분류 모델 개발, 2020
