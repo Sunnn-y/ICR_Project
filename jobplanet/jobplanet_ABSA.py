@@ -1,14 +1,14 @@
 # 필요한 라이브러리 설치
-pip install mxnet                    # mxnet: 딥러닝 프레임워크
-pip install gluonnlp pandas tqdm     # gluonnlp: 오픈소스 딥러닝 기반의 자연어 처리 툴킷
-pip install sentencepiece            # sentencepiece: pre-tokenization을 필요로 하지 않는 tokenizer
-pip install transformers             # transformer
-pip install torch                    # torch
+# pip install mxnet                    # mxnet: 딥러닝 프레임워크
+# pip install gluonnlp pandas tqdm     # gluonnlp: 오픈소스 딥러닝 기반의 자연어 처리 툴킷
+# pip install sentencepiece            # sentencepiece: pre-tokenization을 필요로 하지 않는 tokenizer
+# pip install transformers             # transformer
+# pip install torch                    # torch
 
 
 # https://github.com/SKTBrain/KoBERT 의 파일을 Colab으로 다운로드
-pip install 'git+https://git@github.com/SKTBrain/KoBERT.git@master'
-pip install 'git+https://github.com/SKTBrain/KoBERT.git#egg=kobert_tokenizer&subdirectory=kobert_hf'
+# pip install 'git+https://git@github.com/SKTBrain/KoBERT.git@master'
+# pip install 'git+https://github.com/SKTBrain/KoBERT.git#egg=kobert_tokenizer&subdirectory=kobert_hf'
 
 
 # 필요한 라이브러리 import
