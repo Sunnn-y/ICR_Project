@@ -13,9 +13,7 @@ all_files = [os.path.join(directory_path, file) for file in os.listdir(directory
 ## CSV 파일을 읽어서 리스트에 추가
 dfs = []
 for file_path in all_files:
-    df = pd.read_csv(file_path, encoding='utf-8-sig')
-    df = df.drop_duplicates('title')
-    dfs.append(df)
+    dfs.append(pd.read_csv(file_path))
 
 ## 데이터프레임들을 행으로 병합
 merged_df = pd.concat(dfs, ignore_index=True)
@@ -81,4 +79,4 @@ df = df[['ID', '기업명', '종목명', '종목코드', '작성날짜', '날짜
 print(df.head())
 
 ## 파일 저장
-df.to_csv('news_DB_중복제거.csv', encoding='utf-8-sig', index=False)
+df.to_csv('news_DB.csv', encoding='utf-8-sig', index=False)
