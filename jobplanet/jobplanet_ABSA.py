@@ -12,6 +12,7 @@
 
 
 # 필요한 라이브러리 import
+import pandas as pd
 import torch
 from torch import nn
 import torch.nn.functional as F
@@ -200,8 +201,8 @@ for e in range(num_epochs):
     
     
     # 모델 state dict만 저장하기
-torch.save(model.state_dict(), "model.pt")
-category = {'부정':0,'긍정':1}
+    torch.save(model.state_dict(), "model.pt")
+    category = {'부정':0,'긍정':1}
 
 
 
@@ -233,7 +234,7 @@ def predict(predict_sentence):
     return probabilities[1]
 
 
-import pandas as pd
+
 
 # 리뷰 데이터 불러오기
 corp_name = ['DL이앤씨', 'HDC현대산업개발', '한전KPS', 'HJ중공업', '신세계건설', 'KCC건설', '대우건설', '서희건설', '특수건설', '계룡건설산업', '신원종합개발',
@@ -254,7 +255,6 @@ for i in corp_name:
 
   # 최종 데이터 생성
   result = review[['ID', '종목명', '분기', '총평','구분', '점수']]
-  result.head()
 
   # jobplanet_기업명_경영진.csv 파일로 저장
   result.to_csv(f'/content/drive/MyDrive/ICR_project/잡플래닛_04_ABSA결과/001_경영진/jobplanet_{i}_경영진.csv', encoding = 'utf-8-sig', index=False)
