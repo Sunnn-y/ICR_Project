@@ -29,8 +29,23 @@ https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4
 | 박하린 | 팀원, 초안 발표, 데이터 수집(잡플래닛 기업리뷰), 데이터 수집(기업별 투자지표), Aspect Term 선별, ABSA 감성분석         | https://github.com/mint-rin |
 | 김가희 | 팀원, 데이터 수집(기업 뉴스데이터), 기업별 신용등급 크롤링, 중간발표 2, 데이터 merge, Aspect Term 선별, ABSA 감성분석  | https://github.com/gmlgml5023 |
 
+## 개발환경
+
+- Python(VSCode, Google Colab, Jupyter notebook)
+- Numpy
+- Pandas
+- BeautifulSoup
+- Selenium
+- Scrapy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Tensorflow
+- Google Data Studio(Looker Studio)
+
 
 ## 데이터
+
 | 데이터   | 참고                                     | 출처                          |
 | ------ | -------------------------------------------- | ----------------------------- |
 | 재무제표 | Dart 전자공시 시스템   | https://dart.fss.or.kr/ |
@@ -39,6 +54,7 @@ https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4
 | 기업 신용등급 데이터 | NICE 신용평가사   | https://www.nicerating.com/main.do |
 
 ## 대시보드
+
 <code><img height="400" src="대시보드001.jpg"></code>
 <code><img height="400" src="대시보드002.jpg"></code>
 
