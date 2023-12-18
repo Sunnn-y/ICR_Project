@@ -38,6 +38,10 @@ https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4
 | 잡플래닛 기업 리뷰 | 잡플래닛 사이트   | https://www.jobplanet.co.kr/job/ |
 | 기업 신용등급 데이터 | NICE 신용평가사   | https://www.nicerating.com/main.do |
 
+## 대시보드
+<code><img height="400" src="대시보드001.jpg"></code>
+<code><img height="400" src="대시보드002.jpg"></code>
+
 
 ## 레퍼런스
 
