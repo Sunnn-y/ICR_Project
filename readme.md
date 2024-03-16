@@ -1,35 +1,28 @@
 # Credit X Project
+<br>
 
+### 개요
 
-## 소개
+|                          |                                                                             |
+|:---------------------------------|:----------------------------------------------------------------------------|
+| **소개**                 | 대체 데이터를 활용한 새로운 기업 신용 평가 모델 구축하고자 한 프로젝트        |
+| **추진 배경**            | 기존 재무적 요소 위주의 신용 평가 제도에서 벗어나 기업의 내부/외부 이해관계자들이 평가한 비정형 데이터를 활용하여 신용등급을 새롭게 재평가해보고자 함. |
+| **기간**                 | 2023.11.04 ~ 2023.12.01                                                     |
+| **노션(WBS)**            | [team notion](https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4)                           |
 
-대체 데이터를 활용한 새로운 기업 신용 평가 모델 구축하고자 한 프로젝트
-
+<br>
  
-## 추진 배경
+### 팀원
 
-기존 재무적 요소 위주의 신용 평가 제도에서 벗어나 기업의 내부/외부 이해관계자들이 평가한 비정형 데이터를 활용하여 신용등급을 새롭게 재평가해보고자 함.
-
-
-## 기간
-
-2023.11.04 ~ 2023.12.01
-
-
-## 노션(WBS)
-
-https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4
-
- 
-## 팀원
-
-| 이름   | 역할                                         | url                          |
+| 이름   | 역할                                         | URL                          |
 | ------ | -------------------------------------------- | ----------------------------- |
-| 양소은 | 팀장, 데이터 수집(재무제표), 중간발표 1, 재무비율 계산, 재무데이터 Feature Selection, 재무데이터 Machine Learning, 중간발표 3, 대시보드 제작, 최종 발표 준비 및 발표       | https://github.com/Sunnn-y |
-| 박하린 | 팀원, 초안 발표, 데이터 수집(잡플래닛 기업리뷰), 데이터 수집(기업별 투자지표), Aspect Term 선별, ABSA 감성분석         | https://github.com/mint-rin |
-| 김가희 | 팀원, 데이터 수집(기업 뉴스데이터), 기업별 신용등급 크롤링, 중간발표 2, 데이터 merge, Aspect Term 선별, ABSA 감성분석  | https://github.com/gmlgml5023 |
+| **양소은** | 팀장, 데이터 수집(재무제표), 중간발표 1, 재무비율 계산, 재무데이터 Feature Selection, 재무데이터 Machine Learning, 중간발표 3, 대시보드 제작, 최종 발표 준비 및 발표       | [GitHub](https://github.com/Sunnn-y) |
+| **박하린** | 팀원, 초안 발표, 데이터 수집(잡플래닛 기업리뷰), 데이터 수집(기업별 투자지표), Aspect Term 선별, ABSA 감성분석         | [GitHub](https://github.com/mint-rin) |
+| **김가희** | 팀원, 데이터 수집(기업 뉴스데이터), 기업별 신용등급 크롤링, 중간발표 2, 데이터 merge, Aspect Term 선별, ABSA 감성분석  | [GitHub](https://github.com/gmlgml5023) |
 
-## 개발환경
+<br>
+
+### 개발환경
 
 - Python(VSCode, Google Colab, Jupyter notebook)
 - Numpy
@@ -43,8 +36,9 @@ https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4
 - Tensorflow
 - Google Data Studio(Looker Studio)
 
+<br>
 
-## 데이터
+### 데이터
 
 | 데이터   | 참고                                     | 출처                          |
 | ------ | -------------------------------------------- | ----------------------------- |
@@ -53,13 +47,16 @@ https://thundering-snail-3a9.notion.site/a83aa27d148440b392800919fc663b20?pvs=4
 | 잡플래닛 기업 리뷰 | 잡플래닛 사이트   | https://www.jobplanet.co.kr/job/ |
 | 기업 신용등급 데이터 | NICE 신용평가사   | https://www.nicerating.com/main.do |
 
-## 대시보드
+<br>
+
+### 대시보드
 
 <code><img height="400" src="대시보드001.jpg"></code>
 <code><img height="400" src="대시보드002.jpg"></code>
 
+<br>
 
-## 레퍼런스
+### 레퍼런스
 
 * MickelHoang, Oskar Alija Bihorac, Aspect-Based Sentiment Analysis Using BERT, 2020
 * Park Hyun-jung, BERT를 활용한 속성기반 감성분석: 속성카테고리 감성분류 모델 개발, 2020
